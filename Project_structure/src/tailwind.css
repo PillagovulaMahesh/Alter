@@ -1,0 +1,22 @@
+/* src/tailwind.css */
+
+/* Import Tailwind's base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles (optional) */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7fafc; /* Light background color */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
